@@ -29,8 +29,10 @@ public abstract class Unit {
         this.attackMode = mode;
     }
     
-    // Abstract methods that need to be implemented    
-    public abstract void action();    
+    // Abstract methods that need to be implemented
+    public abstract void action();
+    public abstract boolean canMove();
     public abstract void move();
+    public abstract boolean canAttack();
     public abstract void attack();
 }
