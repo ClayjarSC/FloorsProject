@@ -33,5 +33,4 @@ public abstract class Unit {
     public abstract void action();    
     public abstract void move();
     public abstract void attack();
-    
 }
