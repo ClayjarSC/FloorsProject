@@ -11,6 +11,10 @@ public abstract class Unit {
         FRIENDLY, OFFENSIVE, DEFENSIVE, BOSS
     }
     
+    protected static enum Direction {
+        NORTH, SOUTH, EAST, WEST
+    }
+    
     protected static enum Status {
         ACTIVE, DOWN, DEAD
     }
